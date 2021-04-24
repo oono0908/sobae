@@ -1,0 +1,54 @@
+@media screen and (min-width: 1080px) {
+.bg-container{
+  .main-container{
+    .pc-right{
+      .title-sp{
+        display: none;
+      }
+      .title-pc{
+        height: 100%;
+        margin-top: 0;
+        display: block;
+        .title__01{
+          position: static;
+          transform: none;
+          width: 100%;
+          height: auto;
+        }
+      }
+      .interview-inner{
+        width: 70%;
+        margin-top: 100px;
+        position: relative;
+        &-wrapper{
+          &__bg-point{
+            background-image: url("../image/interview_img_bg_point01.png");
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top: 10%;
+            left: -10%;
+            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+        .interview-inner__int-img{
+          text-align: center;
+          display: block;
+          margin: 100px auto 100px;
+          width: 50%;
+        }
+        .link-btn{
+          width: 30%;
+          margin-top: 100px;
+        }
+      }
+    }
+  }
+}
+}

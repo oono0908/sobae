@@ -1,0 +1,51 @@
+.bg-container{
+  .main-container{
+    .title-pc{
+      display: none;
+    }
+    .title-sp{
+      height: 100%;
+      margin-top: 0;
+      display: block;
+      .title__01{
+        position: static;
+        transform: none;
+        width: 100%;
+        height: auto;
+      }
+    }
+    .goods{
+      width: 90%;
+      margin: 0 auto;
+      .goods-list{
+        list-style: none;
+      .goods-list__item{
+        width: 100%;
+        margin-top: 50px;
+        .item-wrapper{
+          width:100%;
+          background-color: white;
+          box-shadow: 3px 3px 6px 2px rgba(0,0,0,0.2);
+          .item__img{
+            width: 100%;
+          }
+        }
+        .item__name{
+          font-size: 18px;
+          margin-top: 10px;
+          font-weight: bold;
+          color: black;
+        }
+        .item__price{
+          margin-top:10px;
+          font-size: 12px;
+          color: black;
+          .price{
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
+}

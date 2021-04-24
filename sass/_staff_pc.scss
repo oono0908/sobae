@@ -1,0 +1,184 @@
+@media screen and (min-width: 1080px) {
+  .bg-container{
+    .pc-right{
+      .title-sp{
+        display: none;
+      }
+      .title-pc{
+        height: 100%;
+        margin-top: 0;
+        display: block;
+        .title__01{
+          position: static;
+          transform: none;
+          width: 100%;
+          height: auto;
+        }
+      }
+      .pc-right__inner{
+        .staff{
+          width: 50%;
+          .staff0{
+            &-item{
+              display: flex;
+              align-items: center;
+              &__ttl{
+                width: 45%;
+                text-align: right;
+              }
+              &__name{
+                margin-left: 20px;
+                margin-top: 0;
+              }
+            }
+          }
+          .staff01{
+            &-item{
+              margin-top: 20px;
+              display: flex;
+              align-items: center;
+              &__ttl{
+                width: 45%;
+                text-align: right;
+              }
+              &__name{
+                margin-left: 20px;
+                margin-top: 0;
+                font-size: 22px;
+              }
+            }
+          }
+          .staff02{
+            &-item{
+              &__name{
+                &.name_big{
+                font-size: 22px;
+                }
+              }
+            }
+            &-devide{
+              display: flex;
+              .staff02-item{
+                &.staff02-left{
+                  width: 60%;
+                }
+              }
+            }
+            &-devide{
+              display: flex;
+              &__left{
+                width: 60%;
+                .staff02-item{
+                  &.staff02-left{
+                    width: 60%;
+                  }
+                  &__name{
+                    &.name_big{
+                      font-size: 22px;
+                      }
+                  }
+                }
+              }
+            }
+          }
+          .staff03{
+            &-devide{
+              display: flex;
+              .staff03-item{
+                &.staff03-left{
+                  width: 60%;
+                }
+                &__ttl{ 
+                  text-align: left;
+                }
+                &__name{
+                  text-align: left;
+                  font-size: 18px;
+                }
+              }
+            }
+          }
+          .staff04{
+            text-align: left;
+            .staff04-devide{
+              display: flex;
+              .staff04-left{
+                width: 60%;
+              }
+            }
+            .staff-item{
+              &__name{
+                &.name_big{
+                  font-size: 22px;
+                }
+              }
+            }
+          }
+          .staff05{
+            text-align: left;
+            .staff05-devide{
+              display: flex;
+              .staff05-left{
+                width: 60%;
+              }
+            }
+            .staff-item{
+              &__name{
+                &.name_big{
+                  font-size: 22px;
+                }
+              }
+            }
+          }
+          .staff07{
+            &-item{
+              margin-top: 20px;
+              display: flex;
+              align-items: center;
+              &__ttl{
+                width: 45%;
+                text-align: right;
+              }
+              &__name{
+                margin-left: 20px;
+                margin-top: 0;
+                font-size: 22px;
+              }
+            }
+          }
+          .staff08{
+            &-item{
+              display: flex;
+              align-items: center;
+              &__ttl{
+                width: 45%;
+                text-align: right;
+              }
+              &__name{
+                margin-left: 20px;
+                margin-top: 0;
+              }
+            }
+          }
+        }
+      }
+      .news-twitter-wrapper{
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        .news{
+          width: 60%;
+          margin-right: 20px;
+          .item__title{
+            font-size: 15px;
+            letter-spacing: 1px;
+            line-height: 1;
+          }
+        }
+        .twitter{
+          width: 40%;
+        }
+      }
+    }
+  }
+}

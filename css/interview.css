@@ -1,0 +1,45 @@
+.bg-container .main-container .title-pc {
+  display: none;
+}
+
+.bg-container .main-container .interview__title.title-sp {
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+  display: block;
+}
+
+.bg-container .main-container .interview__title.title-sp .title__01 {
+  position: static;
+  transform: none;
+  width: 100%;
+  height: auto;
+}
+
+.bg-container .main-container__bg-point {
+  opacity: 1;
+}
+
+@media screen and (min-width: 1080px) {
+  .bg-container .main-container .pc-right .title-sp {
+    display: none;
+  }
+  .bg-container .main-container .pc-right .title-pc {
+    height: 100%;
+    margin-top: 0;
+    display: block;
+  }
+  .bg-container .main-container .pc-right .title-pc .title__01 {
+    position: static;
+    transform: none;
+    width: 100%;
+    height: auto;
+  }
+  .bg-container .main-container .pc-right .interview {
+    width: 70%;
+    margin-top: 100px;
+  }
+  .bg-container .main-container .pc-right .interview__bg-point {
+    opacity: 1;
+  }
+}

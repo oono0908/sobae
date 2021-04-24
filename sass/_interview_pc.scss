@@ -1,0 +1,29 @@
+@media screen and (min-width: 1080px) {
+.bg-container{
+  .main-container{
+    .pc-right{
+      .title-sp{
+        display: none;
+      }
+      .title-pc{
+        height: 100%;
+        margin-top: 0;
+        display: block;
+        .title__01{
+          position: static;
+          transform: none;
+          width: 100%;
+          height: auto;
+        }
+      }
+      .interview{
+        width: 70%;
+        margin-top: 100px;
+        &__bg-point{
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+}

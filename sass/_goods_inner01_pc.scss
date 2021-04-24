@@ -1,0 +1,39 @@
+@media screen and (min-width: 1080px) {
+.bg-container{
+  .main-container{
+      .title-sp{
+        display: none;
+      }
+      .title-pc{
+        height: 100%;
+        margin-top: 0;
+        display: block;
+        .title__01{
+          position: static;
+          transform: none;
+          width: 100%;
+          height: auto;
+        }
+      }
+    .goods-inner01{
+      width: 80%;
+      margin-top: 50px;
+      .goods-inner__wrapper{
+        display: flex;
+        justify-content: space-between;
+        .goods-inner__left{
+          width: 55%;
+        }
+        .goods-inner__right{
+          width: 40%;
+        }
+        
+      }
+      .to-goods{
+        width: 400px;
+        margin-top: 100px;
+      }
+  }
+}
+}
+}

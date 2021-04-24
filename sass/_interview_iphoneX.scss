@@ -1,0 +1,22 @@
+.bg-container{
+  .main-container{
+    .title-pc{
+      display: none;
+    }
+    .interview__title.title-sp{
+      width: 100%;
+      height: auto;
+      margin-top: 0;
+      display: block;
+      .title__01{
+        position: static;
+        transform: none;
+        width: 100%;
+        height: auto;
+      }
+    }
+    &__bg-point{
+      opacity: 1;
+    }
+  }
+}
